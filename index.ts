@@ -35,7 +35,7 @@ import write from "./src/lib/write";
           };
 
     // Write Build information to file
-    await write(build);
+    await write(build, args.out);
 
     console.log("");
     signale.success("Saved Build Information");
